@@ -8,5 +8,3 @@ miApp.register_blueprint(indice)
 
 
 
-
-

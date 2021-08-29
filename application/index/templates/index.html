@@ -8,10 +8,10 @@
 </head>
 <body>
     <h1>TEST TASK</h1>
-    <h3>This Blueprint help you to find the distance from the Moscow Ring Road to the specified address.</h3>
+    <h3>This Blueprint help you to find the distance from the Moscow Ring Road to a specified address.</h3>
 
-    <form action="{{ url_for('index.direccion') }}" method="POST">
-    <label for="address">Write your address</label>
+    <form action="/calculo" method="POST">
+    <label for="address">Write an address</label>
     <input type="text" id="address" name="address">
     <button >Calculate</button>
     </form>
