@@ -7,9 +7,9 @@
     <title>Resultado</title>
 </head>
 <body>
-    {% if distancia > 0 %}
-        <h1>The distance from the Moscow Ring Road to the specified address is:</h1>
-        <h3> {{distancia}} km</h3>
+    {% if km > 0 %}
+        <h1>The distance from the Moscow Ring Road to {{address}} is:</h1>
+        <h3> {{km}} km</h3>
     {% else %}
         <h3>You are already in the Moscow Ring Road</h3>
     {% endif %}
